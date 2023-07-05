@@ -1,0 +1,19 @@
+{% extends 'flatpages/default.html'%}
+<!-- Название у нас будет proudcts -->
+{% block title %}
+Продукт
+{% endblock title %}
+ 
+<!-- В контенте на странице мы выводим все товары -->
+{% block content %}
+<h1>Товар</h1>
+{{ product }}
+{% endblock content %}
+
+
+{% block content1 %}
+<h3>наимование: {{product.name}}</h3>
+<h3>{{product.description}}</h3>
+<h3>цена: {{product.price}} рублей</h3>
+
+{% endblock content1 %}

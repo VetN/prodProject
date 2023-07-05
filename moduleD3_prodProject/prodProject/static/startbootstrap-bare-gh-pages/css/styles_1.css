@@ -1,0 +1,36 @@
+
+.container_1 {
+    background-color: #dedad6;
+    padding: 10px;
+ }
+.container_2 {
+    background: linear-gradient(to bottom, #dedad6, #f9f0e5) ;
+    padding: 50px;
+    margin-bottom: 0;
+}
+hr {
+background-color:#525f52; 
+height:7px;
+margin: 1px;
+opacity: 0.9;
+}
+.container hr {
+    background-color:#525f52; 
+    height:3px;
+    margin: 1px;
+    opacity: 0.9;
+   
+    }
+.container p, .container h3 {
+    color:#525f52
+}
+.photo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    padding: 10px;
+   
+
+}
+
+/*style="background-image: url('{% static 'images/blank-background.jpg' %}'); width=100%"
